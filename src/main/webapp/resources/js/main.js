@@ -4,11 +4,10 @@ let x, y, r;
 let fieldX = document.getElementById("fieldX");
 let fieldY = document.getElementById("fieldY");
 
-document.querySelector('input[name="form:textY"]').value = "";
-
 document.addEventListener("DOMContentLoaded", function () {
     $('.hidden-textR input[type=hidden]').val(1.00);
-    $('.outputR').textContent = "1";
+    $('.x-button1').click();
+    document.querySelector('input[name="form:textY"]').value = "0.0";
     drawCanvas(parseFloat($('.hidden-textR input[type=hidden]').val()));
 });
 
@@ -23,7 +22,8 @@ function changeX(link, val) {
 }
 
 $('.send').on('click', function (event) {
-
+    x = $('.input-hidden-x input[type=hidden]').val();
+    y = $('.input-y').val();
     drawHitPoint(x, y, r);
     /*
     fieldX.textContent = "";
@@ -33,7 +33,6 @@ $('.send').on('click', function (event) {
         return;
     }
     */
-    //$('.input-hidden-x input[type=hidden]').val('');
 });
 /*
 function checkX () {

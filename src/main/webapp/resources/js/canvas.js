@@ -117,6 +117,9 @@ function clickOnCanvas(canvas, event) {
     $('.input-y').val(y);
     drawHitPoint(x, y, r);
     $('.send').click();
+    setTimeout(function() {
+        $('.x-button1').click();
+    }, 400);
 }
 
 function checkArea(x, y, r) {

@@ -32,4 +32,8 @@ public class ContainerBean implements Serializable {
         DBManager.addPointToDB(point);
         point = new Point();
     }
+
+    public List<Point> getPoints() {
+        return DBManager.loadPoints();
+    }
 }

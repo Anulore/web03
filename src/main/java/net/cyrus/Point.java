@@ -20,7 +20,7 @@ public class Point implements Serializable {
     @Column(name = "y", nullable = false)
     private double y;
     @Column(name = "r", nullable = false)
-    private double r;
+    private double r = 1;
     @Column(name = "result", nullable = false)
     private String result;
     @Column(name = "date", nullable = false)
