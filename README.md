@@ -28,6 +28,6 @@
 - Правила навигации между страницами приложения должны быть заданы в отдельном конфигурационном файле.
 
 ## Координатная плоскость:
-![Coordinate plane](https://github.com/CYEliN/web03/blob/master/src/main/webapp/images/web03_area_12052.png)
+![Coordinate plane](https://github.com/CYEliN/web03/blob/master/src/main/webapp/resources/images/web03_area_12052.png)
 
 - Порт: 5608
