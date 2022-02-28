@@ -336,12 +336,12 @@ a[type="button"].ui-commandlink:hover,
     color: #fff;
 }
 
-.link:visited {
-    color: #000
+a.link:visited {
+    color: #000 !important;
 }
 
-.link:visited:hover {
-    color: #fff
+a.link:visited:hover {
+    color: #fff !important;
 }
 
 .outputR {
